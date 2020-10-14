@@ -20,14 +20,21 @@ python3 -m gabtk --help-all
 Available commands::
 
     configureProject    #creates the luigi configuration file luigi.cfg
+    
     rawReadsQC          #fastqc analysis of raw reads
+    
     cleanReads	        #processs illumina short reads
+    
     cleanLongReads      #filter nanopore or pacbio long reads
+    
     correctPAC          #Correct pacbio reads
+    
     correctONT          #Correct Nanopore reads
     
     lightAssembler      #Assembly of illumina paired end reads using Light Assembler
+    
     sparseAssembler     #Assembly of illumina paired-end reads using Sparse Assembler
+    
     discovardenovo      #Assembly of illumina paired-end reads using discovardenovor
     
     spades              #Assembly of (i)   illumina paired-end reads
@@ -58,15 +65,22 @@ Available commands::
                                      (iv) illumina paired-end reads with pacbio reads
                                      
                                      
-     
+    dbg2olc          #Assembly of   illumina paired-end reads with nanopore reads
+                     #Assembly of   illumina paired-end reads with pacbio reads
      
     smartdenovo      #Assembly of nanopore long reads or pacbio long reads
+    
+    wtdbg2           #Assembly of nanopore long reads or pacbio long reads
     
     flye             #Assembly of nanopore long reads or pacbio long reads
     
     canu             #Assembly of nanopore long reads or pacbio long reads
     
     abruijn          #Assembly of nanopore long reads or pacbio long reads
+    
+    neact            #Assembly of nanopore long reads
+    
+    meact            #Assembly of pacbio long reads
 
 
 
