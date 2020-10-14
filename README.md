@@ -1,6 +1,8 @@
 Genome Assembly Benchmark Toolkit
+=================================
 
 installation instruction:
+--------------------
 git clone ______
 
 cd cglab-gabtk
