@@ -19,21 +19,13 @@ python3 -m gabtk --help-all
 
 Available commands::
 
-    configureProject 
-    rawReadsQC
-    cleanReads	
-    cleanLongReads
-    correctPAC
-    correctONT
+    configureProject    #creates the luigi configuration file luigi.cfg
+    rawReadsQC          #fastqc analysis of raw reads
+    cleanReads	        #processs illumina short reads
+    cleanLongReads      #filter nanopore or pacbio long reads
+    correctPAC          #Correct pacbio reads
+    correctONT          #Correct Nanopore reads
     
-
-|:
-|1. configureProject       #creates the luigi configuration file luigi.cfg
-|2: rawReadsQC			              #fastqc analysis of raw reads
-|3: cleanReads			              #processs illumina short reads
-|4:                #filter nanopore or pacbio long reads
-|5: correctPAC		               	#Correct pacbio reads
-|6: correctONT	                  #Correct Nanopore reads
 
 Paired-end only Assemblers
 1. lightassembler
