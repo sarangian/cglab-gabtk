@@ -17,6 +17,8 @@ export PYTHONPATH=$PYTHONPATH:/path/to/cglab-gabtk/gabtk
 step 2: Get help
 python3 -m gabtk --help-all
 
+::
+
 |Available commands:
 |1. configureProject             #creates the luigi configuration file luigi.cfg
 |2: rawReadsQC			              #fastqc analysis of raw reads
