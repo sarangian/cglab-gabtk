@@ -4,9 +4,6 @@
 Commands
 ========
 
-.. toctree::
-   :hidden:
-
 
 Prepare Prpject
 ------------------
