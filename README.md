@@ -34,13 +34,41 @@ Available commands::
                                      (ii)  illumina paired-end reads with mate-pair reads
                                      (iii) illumina paired-end reads with nanopore reads
                                      (iv) illumina paired-end reads with pacbio reads
-     
     
+    abyss              #Assembly of  (i)   illumina paired-end reads
+                                     (ii)  illumina paired-end reads with mate-pair reads
+                                     (iii) illumina paired-end reads with nanopore reads
+                                     (iv) illumina paired-end reads with pacbio reads
+                                     
+    
+    idba              #Assembly of   (i)   illumina paired-end reads
+                                     (ii)  illumina paired-end reads with mate-pair reads
+                                     (iii) illumina paired-end reads with nanopore reads
+                                     (iv) illumina paired-end reads with pacbio reads
+                                     
+    ray              #Assembly of    (i)   illumina paired-end reads
+                                     (ii)  illumina paired-end reads with mate-pair reads
+                                     (iii) illumina paired-end reads with nanopore reads
+                                     (iv) illumina paired-end reads with pacbio reads 
+                                     
+     
+    masurca          #Assembly of    (i)   illumina paired-end reads
+                                     (ii)  illumina paired-end reads with mate-pair reads
+                                     (iii) illumina paired-end reads with nanopore reads
+                                     (iv) illumina paired-end reads with pacbio reads
+                                     
+                                     
+     
+     
+    smartdenovo      #Assembly of nanopore long reads or pacbio long reads
+    
+    flye             #Assembly of nanopore long reads or pacbio long reads
+    
+    canu             #Assembly of nanopore long reads or pacbio long reads
+    
+    abruijn          #Assembly of nanopore long reads or pacbio long reads
 
-Paired-end only Assemblers
-1. lightassembler
-2. sparseassembler
-3. discovardenovo
+
 
 Hybrid Assemblers (paired-end with mate-pair  or paired-end with long-reads)
 1. spades
