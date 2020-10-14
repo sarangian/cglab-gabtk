@@ -26,6 +26,16 @@ Available commands::
     correctPAC          #Correct pacbio reads
     correctONT          #Correct Nanopore reads
     
+    lightAssembler      #Assembly of illumina paired end reads using Light Assembler
+    sparseAssembler     #Assembly of illumina paired-end reads using Sparse Assembler
+    discovardenovo      #Assembly of illumina paired-end reads using discovardenovor
+    
+    spades              #Assembly of (i)   illumina paired-end reads
+                                     (ii)  illumina paired-end reads with mate-pair reads
+                                     (iii) illumina paired-end reads with nanopore reads
+                                     (iv) illumina paired-end reads with pacbio reads
+     
+    
 
 Paired-end only Assemblers
 1. lightassembler
