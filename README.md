@@ -2,7 +2,9 @@ Genome Assembly Benchmark Toolkit
 
 installation instruction:
 git clone ______
+
 cd cglab-gabtk
+
 ./install.sh
 
 Running Genome Assembly Benchmark Toolkit
@@ -35,7 +37,7 @@ Hybrid Assemblers (paired-end with mate-pair  or paired-end with long-reads)
 6. soapdenovo
 7. dbg2olc
 
-long read  asse
+long read  assemblers
 1. flye
 2. canu
 3. necat
@@ -47,9 +49,12 @@ long read  asse
 
 
 A. paired-end only assembler
+
 1. python3 benchmark.py lightAssembler --help 
 
   --seq-platforms             #optional, default: pe
+  
   --pre-process-reads         #Choices: {yes, no}
+  
   --kmer                      #Minimal Kmer Length for assembly. [--kmer 31]
 
